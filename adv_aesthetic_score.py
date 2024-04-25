@@ -68,7 +68,7 @@ class Adv_Scoring:
 
 	RETURN_TYPES = ("NUMBER","FLOAT","STRING","IMAGE")
 	FUNCTION = "calc_score"
-	CATEGORY = "MyNode/Scoring"
+	CATEGORY = "mynode/scoring"
 
 	def calc_score(self, model_name, image, limit):
 		m_path = folder_paths.folder_names_and_paths["aesthetic"][0]
